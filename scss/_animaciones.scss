@@ -1,0 +1,35 @@
+.propiedades {
+    transition: all 1s;
+    filter: grayscale(100%);
+
+}
+
+.prop1 {
+
+    &:hover {
+
+        filter: grayscale(0);
+        transform: scale(1.2);
+    }
+
+}
+
+.prop2 {
+
+    &:hover {
+        filter: grayscale(0);
+        transform: scale(1.2);
+
+    }
+
+}
+
+.prop3
+
+/*:hover*/
+    {
+    grid-area: prop3;
+    filter: grayscale(0);
+    transform: scale(1.2);
+
+}
